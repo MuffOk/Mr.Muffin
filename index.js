@@ -1,8 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const token = 'NjI1MzIwMjAxOTM1NjUwODE3.XYeiyA.xtkTOLL9Ni1kmrk4RbOXcY9FAmk';
-
 const PREFIX = 'm!';
 
 const quoteResponses = ["It's Muffin Time!", "I wanna die!", "Why wont you let me die!", "Hey Joey!, Wanna eat me?", "Anybody want a muffin?", "Hey, somebody kill me!"];
