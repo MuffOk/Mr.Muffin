@@ -12,7 +12,7 @@ bot.on('ready', () =>{
 
 bot.on('message', msg=>{
 
-    let args = msg.content.substring(PREFIX.length).split(" ");
+    let args = msg.content.startsWith(PREFIX.length).split(" ");
 
     switch(args[0].toLowerCase()) {
         case 'quote':
