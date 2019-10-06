@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 
 const PREFIX = 'm!';
 
-const quoteResponses = ["It's Muffin Time!", "I wanna die!", "Why wont you let me die!", "Hey Joey!, Wanna eat me?", "Anybody want a muffin?", "Hey, somebody kill me!"];
+const quoteResponses = ["Got your nose!","Look out! He's got a nose!","You gotta help me man! My tie is evil and its gonna kill me!","please don't hurt me....","Hello parking meter!","Hey- Hey guy,smell my flower","Oh","Hey ma- Aw what the hell is wrong with you?","Level up!","Somebody help me, Im being robbed!","I'll save you! Tree powers, ACTIVATE!"," Die potato!","mmm, yum","AUGHHHH, WHY WOULD YOU DO THIS??!?","I HAVE A WIFE AND FAMILY!", ];
 
 bot.on('ready', () =>{
     console.log('This bot is online!');
